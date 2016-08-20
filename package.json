@@ -4,6 +4,7 @@
   "description": "Aplicación de ejemplo en Express.js con Docker",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "mocha"
   },
   "repository": {
