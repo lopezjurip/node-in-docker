@@ -1,0 +1,27 @@
+{
+  "name": "node-in-docker",
+  "version": "1.0.0",
+  "description": "Aplicación de ejemplo en Express.js con Docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrpatiwi/node-in-docker.git"
+  },
+  "author": "Patricio López <patricio@lopezjuri.com> (https://lopezjuri.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrpatiwi/node-in-docker/issues"
+  },
+  "homepage": "https://github.com/mrpatiwi/node-in-docker#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2",
+    "supertest": "^2.0.0"
+  }
+}
