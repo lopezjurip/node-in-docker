@@ -11,7 +11,7 @@ Create a container with this image:
 
 ```sh
 # Run a instance named 'express-container'.
-docker run -p 5000:3000 --name express-container express-image
+docker run -d -p 5000:3000 --name express-container express-image
 ```
 
 Now visit `http://localhost:5000`.
